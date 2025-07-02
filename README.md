@@ -1,2 +1,2 @@
-# T400_arch_config
-Personal Install of Arch Linux on a Thinkpad T400. Contains Configuration files and notes/documentation for setup.
+# Arch Linux Installation
+This repository documents a minimal arch install which was designed to repurporse an old machine sitting unused for my own experimentation and benefit. It started as a way to host my own projects and portfolio website for free and became a dive into real world systems like servers, networking, security, and hosting. On top of that, by using an old machine like the T400 and eliminating the risk of ruining my daily computer I was able to gain real experience with the quirks of bootstrapping arch linux to a bare SSD rather than using virtualization.
