@@ -1,0 +1,1 @@
+*/5 * * * * ~/duckdns/duck.sh >> ~/duckdns/duck.log 2>&1
