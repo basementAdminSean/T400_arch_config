@@ -23,4 +23,6 @@ What would be the brain and extensive nervous system in the human body is, in my
 
 The first step is to give our host the parasite, or in other words, put the CD in the disk drive. We boot into the BIOS and choose the disk to boot on. Then we see the Linux start up log (and I feel like I'm hacking the pentagon). All that is left now is to type "archinstall" in the terminal, press enter, and choose what software and configurations you want. Regrettably, I followed the Arch Wiki manually before learning this command existed. Ironically, that is exactly why I can now explain what linux does under the hood.
 
-//In the metaphor I talk about a "provided braindead host" which references the SSD. The SSD has nothing on it to start 
+In the metaphor I talk about a "provided braindead host" which references the SSD. The SSD has nothing on it to start which is why the host would be considered braindead. Linux takes that blank canvas and creates a partitioning table that basically allows Linux to organize it in a way where it understands where everything is. In a nutshell, when you use archinstall Linux is literally formatting and cloning itself to the hardware and reporducing itself just like a virus replicates itself in host cells.
+
+With our little makeshift Linux mind virus now in full control of this Frankenstein project, we can move on to the good stuff. It's time to give this thing some meat.
