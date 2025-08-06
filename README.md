@@ -2,6 +2,34 @@
 
 ---
 
+**Note:** This README is more of a story and thought process than a traditional step-by-step guide. It’s meant to showcase how I approach problems, why I made the decisions I did, and how I think.  
+If you're looking for a fast technical summary, here’s the TL;DR:
+
+### Quick Setup Summary
+
+1. **Install Arch Linux**
+   - Burn Arch ISO to CD or USB
+   - Boot into BIOS and load install media
+   - Use `archinstall` or follow the Arch Wiki manually
+2. **Set up core services**
+   - Install and enable:
+     - Apache
+     - PHP
+     - MariaDB
+     - OpenSSH
+     - UFW
+     - Tailscale
+     - NetworkManager (if using a GUI or Wi-Fi)
+3. **Secure and customize**
+   - Set UFW rules
+   - Create your user and lock root
+   - Optionally install a lightweight GUI and customization tools
+4. **Access from outside**
+   - Use DuckDNS + dynamic IP setup or
+   - Skip that pain entirely and use Tailscale (recommended)
+
+*Now back to the story...*
+
 This repository documents a minimal Arch Linux installation created to repurpose an old, unused machine and gain hands-on experience working with a personal server and custom development environment. What began as a way to host my own projects and portfolio site for free evolved into a deeper dive into real-world systems—covering topics like servers, networking, security, and self-hosting. By using a machine like the ThinkPad T400, I avoided risking my daily computer and gained valuable insight into bootstrapping Arch Linux directly onto a bare SSD, rather than relying on the safety of virtualization.
 
 ---
